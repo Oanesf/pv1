@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url(../css/img/img1.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* .div-header{
+
+} */
+
+.ul-header{
+
+    display: flex;
+    font-size: 0.7em;
+
+}
+.ul-header li a{
+    padding:0 10px;
+    color: #fff;
+    font-size: 1.5em;
+
+
+}
+
+
+
+
+.content-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    justify-content: center;
+    width: 90%;
+    height: 45vh;
+    border: 2px solid #fafafa10;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px   #000000;
+
+}
+
+
+.content-title h1{
+    font-size: 2.4em;
+    color: #fff;
+}
+
+.content-title p{
+    font-size: 1.4em;
+    color: #fff;
+    margin-top: 30px;
+    padding: 0 40px;
+}
+
+
+.content-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.btn-app {
+    width: 230px;
+    height: 50px;
+    border: 0px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.3em;  
+    cursor: pointer;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-app img{
+    padding: 0 5px;
+    width: 40px;
+}
+
+/* ___________________________________ */
+
+.content-1{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3) ), url(../css/img/img2.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.card-container{
+    width: 80%;
+    height: 80vh;
+    border: 2px solid #fafafa10;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px   #000000;
+}
+
+.glass-effect{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}
+/* _________________________ */
+
+
+
+footer{
+    background: linear-gradient(180deg , #2d2d2d , #000);
+    height: 50vh;
+}
+
+/* _________________________ */
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+}
+
+
+@media only screen and (min-width: 700px) {
+
+}
