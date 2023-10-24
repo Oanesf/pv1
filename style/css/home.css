@@ -27,7 +27,7 @@ header{
 } */
 
 .ul-header{
-
+    padding: 10px;
     display: flex;
     font-size: 0.6em;
 
@@ -81,8 +81,8 @@ header{
 .btn-app {
     width: 250px;
     height: 60px;
-    border: 0px;
-    color: #fff;
+    border: none;
+    color: #000;
     border-radius: 20px;
     font-size: 1.3em;  
     cursor: pointer;
@@ -91,6 +91,9 @@ header{
     justify-content: center;
     align-items: center;
 
+}
+ a{
+    color: #000;
 }
 .btn-app img{
     padding: 0 7px;
@@ -102,7 +105,7 @@ header{
 .content-1{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1) ), url(../css/img/img2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1) ), url(../css/img/img4.png);
     background-size: cover;
     background-position: center;
 
@@ -120,7 +123,7 @@ header{
 }
 .content-1 p{
     color: #fff;
-    font-size: 1.15em;
+    font-size: 1.4em;
     font-weight: 400;
     text-align: center;
     padding: 10px;
@@ -153,7 +156,7 @@ header{
 .content-2{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1) ), url(../css/img/img3.png);
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1) ), url(../css/img/img2.png);
     background-size: cover;
     background-position: center;
 
@@ -181,6 +184,11 @@ header{
     height: 50vh;
 }
 
+.cont3{
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1) ), url(../css/img/img3.png);
+
+}
+
 /* ___________________________________ */
 
 
@@ -196,11 +204,4 @@ footer{
 
 
 
-@media only screen and (max-width: 700px) {
 
-}
-
-
-@media only screen and (min-width: 700px) {
-
-}
